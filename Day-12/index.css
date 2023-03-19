@@ -1,0 +1,23 @@
+#content
+{
+    font-family: Arial ,sans-serif; 
+    width: 100%;
+    border-collapse: collapse;
+} 
+#content td,content th{
+    border: 2px solid #000000;
+    padding: 8px;
+} 
+#content tr:nth-child(odd
+)
+{
+    background-color: #a9a9a9;
+}
+#ma td{
+    background-color: #08f981;
+} 
+#con
+{
+    font-size: 50px;
+    text-align: center;
+}
