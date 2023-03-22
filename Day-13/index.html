@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <title>Image Card in CSS</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="Image in css"> 
+        <style>
+        .gal
+        { 
+            position: absolute; 
+            top: 20%; 
+            left: 26%;
+            border: 2px solid #000000;
+            margin: 50px; 
+            float: left; 
+            width: 300px; 
+            height: 210px; 
+            background-color: antiquewhite;
+            border-radius: 2px;   
+            box-shadow: 10px 5px rgb(28, 28, 28);
+    
+        }   
+        .ga
+        { 
+            position: absolute; 
+            top: 80%; 
+            left: 26%;
+            border: 2px solid #000000;
+            margin: 50px; 
+            float: left; 
+            width: 300px; 
+            height: 210px; 
+            background-color: antiquewhite;
+            border-radius: 2px;   
+            box-shadow: 10px 5px rgb(28, 28, 28);
+    
+        }   
+        .ga:hover
+        {
+            border: 4px solid#a7a8e7;
+        }
+        .gal:hover
+        {
+            border: 4px solid#a7a8e7;
+        }
+        .des 
+        {
+            font-size: 20px;
+            text-align: center;
+            color: rgb(0, 0, 0); 
+            font-weight: 600;
+            font-family: sans-serif; 
+           
+        } 
+        .bb{
+            background-color: #3f3f3f;
+        } 
+        .bb{
+            text-align: center; 
+            font-size: 24px; 
+            color: #ffffff; 
+            font-size: 600; 
+            font-family: sans-serif;
+        }
+        </style>
+    </head>
+    <body class="bb"> 
+        <p class="txt"> <h1>Image card and Shadow in css</h1> </p>
+        <div class="gal">
+            <a target="_blank" href="https://st.depositphotos.com/1035837/3968/i/600/depositphotos_39685183-stock-photo-blue-sky-with-clouds-and.jpg">
+                <img src="https://st.depositphotos.com/1035837/3968/i/600/depositphotos_39685183-stock-photo-blue-sky-with-clouds-and.jpg" alt="Image" height="170" width="300">
+              <div class="des">Sun rise image in the box </div>
+            </a>
+        </div> 
+        <div class="ga">
+            <a target="_blank" href="https://st.depositphotos.com/1035837/3968/i/600/depositphotos_39685183-stock-photo-blue-sky-with-clouds-and.jpg">
+                <img src="https://st.depositphotos.com/1035837/3968/i/600/depositphotos_39685183-stock-photo-blue-sky-with-clouds-and.jpg" alt="Image" height="170" width="300">
+              <div class="de">Sun rise image in the box </div>
+            </a>
+        </div> 
+        
+    </body>
+</html>
